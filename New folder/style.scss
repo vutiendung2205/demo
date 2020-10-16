@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+header {
+    width: 400px;
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
+    button{
+        padding: 5px;
+    }
+}
+.step_list{
+    width: 400px;
+    padding: 5px;
+    // text-align: center;
+    button {
+        padding: 5px;
+        margin-right: 5px;
+    }
+}
+.form {
+    width: 400px;
+    form {
+        .form_group{
+            padding-bottom: 20px;
+            width: 100%;
+            display: flex;
+            label{
+                width: 50px;
+            }
+            input{
+                width: 200px;
+                padding: 1px 2px;
+            }
+        }
+    }
+}
+.view_tab_list {
+    width: 400px;
+    .view_tab {
+        width: 100%;
+    }
+}
